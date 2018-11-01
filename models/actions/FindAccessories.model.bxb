@@ -1,0 +1,11 @@
+action (FindAccessories) {
+  type (Fetch)
+  collect {
+    input (shoe) {
+      type (Shoe)
+      min (Required)
+      prompt-behavior (AlwaysSelection)
+    }
+  }
+  output (Accessory)
+}

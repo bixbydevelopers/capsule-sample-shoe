@@ -1,0 +1,3 @@
+text (AccessoryDescription) {
+  description (Short description of an accessory)
+}

@@ -1,0 +1,3 @@
+data:
+  aligned: '[g:Shoe] Find a (boot)[v:Type:Boot]'
+type: intent

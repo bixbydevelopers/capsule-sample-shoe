@@ -1,0 +1,11 @@
+structure (Accessory) {
+  description (Description containing name and details for an accessory.)
+  property (name) {
+    type (AccessoryName)
+    min (Required)
+  }
+  property (details) {
+    type (AccessoryDescription)
+    min (Required)
+  }
+}

@@ -1,0 +1,3 @@
+data:
+  aligned: '[g:Shoe] Find some (dance)[v:Type:Dance] shoes'
+type: intent

@@ -1,0 +1,4 @@
+train (t-k7gki5i74omxdhd6dmfdeqj9m) {
+  utterance ("[g:Shoe] find a shoe between {[g:money.MinPrice] ($)[v:money.PrefixSymbol:$](60)[v:money.CurrencyValue]} and {[g:money.MaxPrice] ($)[v:money.PrefixSymbol:$](65)[v:money.CurrencyValue]}")
+  plan (3Y/JCsIwFEWv1nm2SN24dGsXfoKCKwVBcSu1jRisSUkH7N/7YoVaFD/ALDKcd95NAhNmwpOjJ93QDi+S2TuaYBXZigvvybVr36Rgqb1x7lvF3SLjImP9nGVglINFzH0vo1ZOl7FSTLjpPg0Yxp/84PgxwyQvrKW8xkGhbf6rOnWlCCPlcBHNAiUDpiLOwvcnbBU78/suvZ2k/wc/GKKEMgxUUEUNdTTQRAttdNBFD30MyAA52tKOtrRjPB1taacEPSqv9dsJlA3KqFO6QclD2tO9Dw==)
+}

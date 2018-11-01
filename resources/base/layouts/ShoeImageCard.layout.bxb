@@ -1,0 +1,31 @@
+layout-macro-def (shoe-image-card) {
+  params {
+    param (shoe) {
+      type (Shoe)
+      min (Required) max (One)
+    }
+  }
+  content {
+    image-card {
+      size (L)
+      image-url ("#{value(shoe.images[0].url)}")
+      title-area {
+        hAlign (Start)
+        slot1 {
+          text {
+            value ("#{value(shoe.name)}")
+            style (Title_L)
+          }
+        }
+        slot2 {
+          single-line {
+            text {
+              value ("#{value(shoe.price)}")
+              style (Detail_M)
+            }
+          }
+        }
+      }
+    }
+  }
+}

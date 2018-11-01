@@ -1,0 +1,44 @@
+layout-macro-def (shoe-accessories) {
+  params {
+    param (shoe) {
+      type (Shoe)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      title ("Accessories")
+      content {
+        partitioned {
+          content {
+            for-each (shoe.accessories) {
+              as (accessory) {
+                cell-area {
+                  slot1 {
+                    image {
+                      shape (Circle)
+                      url {
+                        template ("/images/red-shoe-icon.png")
+                      }
+                    }
+                  }
+                  slot2 {
+                    content {
+                      order (PrimarySecondary)
+                      primary {
+                        template ("#{value(accessory.name)}")
+                      }
+                      secondary {
+                        template ("#{value(accessory.details)}")
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

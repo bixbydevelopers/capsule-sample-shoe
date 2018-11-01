@@ -1,0 +1,4 @@
+train (t-qd6gna6ewtgh0vsrr3fqnc84c) {
+  utterance ("[g:Shoe] Find a (dance)[v:Type:Dance] shoe for me!")
+  plan (Y2BmEEytSMwtyEnVK87IT9ULBhIMoihCbpl5KWBhVJUhlQWpDEwMjEDMACQZGUCACYIB)
+}

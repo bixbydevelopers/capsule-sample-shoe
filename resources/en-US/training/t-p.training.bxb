@@ -1,0 +1,4 @@
+train (t-ptmn0akorkvc19n4t5ap0ma3r) {
+  utterance ("[g:Shoe] find (athletic)[v:Type:Athletic] shoes")
+  plan (Y2BmECrLLItPyU8u1ivOyE/VCwYSDGKoYm6ZeSlgcTS1IZUFqQxMDIxAzAAkGRlAgAmCAQ==)
+}

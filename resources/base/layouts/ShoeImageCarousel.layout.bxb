@@ -1,0 +1,17 @@
+layout-macro-def (shoe-image-carousel) {
+  params {
+    param (shoe) {
+      type (Shoe)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        image-carousel {
+          images (shoe.images)
+        }
+      }
+    }
+  }
+}

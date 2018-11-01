@@ -1,0 +1,8 @@
+dialog (Result) {
+  match {
+    Shoe(this) {
+      from-output: FindShoe(find)
+    }
+  }
+  template ("I found #{spell (size(this))}[ #{lower(value (find.type))}] #{concept(this)}[, less than #{value (find.maxPrice)}][, greater than #{value (find.minPrice)}]:")
+}

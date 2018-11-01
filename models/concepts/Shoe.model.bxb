@@ -1,0 +1,28 @@
+structure (Shoe) {
+  property (name) {
+    type (Name)
+    min (Required)
+  }
+  property (description) {
+    type (Description)
+    min (Required)
+  }
+  property (type) {
+    type (Type)
+    min (Required)
+  }
+  property (price) {
+    type (money.Price)
+    min (Required)
+  }
+  property (accessories) {
+    description (A list of accessories for a shoe.)
+    type (Accessory)
+    min (Optional) max(Many)
+    lazy-source (FindAccessories)
+  }
+  property (images) {
+    type (Image)
+    max (Many) min (Required)
+  }
+}

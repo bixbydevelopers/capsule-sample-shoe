@@ -1,0 +1,3 @@
+data:
+  aligned: '[g:viv_docs.shoe.Shoe] find (athletic)[v:viv_docs.shoe.Type:Athletic] shoes'
+type: intent

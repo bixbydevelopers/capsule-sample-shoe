@@ -1,0 +1,37 @@
+result-view {
+  match {
+    Shoe (shoe)
+  }
+
+  render {
+    if ("size(shoe) > 1") {
+      list-of (shoe) {
+        where-each (item) {
+          layout-macro (shoe-image-card) {
+            param (shoe) {
+              expression (item)
+            }
+          }
+        }
+      }
+    } else-if ("size(shoe) == 1") {
+      layout {
+        layout-macro (shoe-image-carousel) {
+          param (shoe) {
+            expression (shoe)
+          }
+        }
+        layout-macro (shoe-details-header) {
+          param (shoe) {
+            expression (shoe)
+          }
+        }
+        layout-macro (shoe-accessories) {
+          param (shoe) {
+            expression (shoe)
+          }
+        }
+      }
+    }
+  }
+}

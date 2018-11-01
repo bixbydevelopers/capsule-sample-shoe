@@ -1,0 +1,43 @@
+layout-macro-def (shoe-details-header) {
+  params {
+    param (shoe) {
+      type (Shoe)
+      min (Required) max (One)
+    }
+  }
+  content {
+    section {
+      content {
+        title-area {
+          hAlign (Start)
+          slot1 {
+            text {
+              style (Title_L)
+              value ("#{value(shoe.name)}")
+            }
+          }
+          slot2 {
+            single-line {
+              text {
+                style (Title_XS)
+                value ("#{value(shoe.price)}")
+              }
+            }
+          }
+          slot3 {
+            single-line {
+              text {
+                style (Detail_L_Soft)
+                value ("#{value(shoe.type)}")
+              }
+            }
+          }
+        }
+        paragraph {
+          style (Detail_M)
+          value ("#{value(shoe.description)}")
+        }
+      }
+    }
+  }
+}

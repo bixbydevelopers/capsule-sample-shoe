@@ -1,0 +1,18 @@
+endpoints {
+  authorization {
+    none
+  }
+
+  action-endpoints {
+
+    action-endpoint (FindShoe) {
+      accepted-inputs (name, type, minPrice, maxPrice)
+      local-endpoint ("FindShoe.js")
+    }
+    
+    action-endpoint (FindAccessories) {
+      accepted-inputs (shoe)
+      local-endpoint ("FindAccessories.js")
+    }
+  }
+}

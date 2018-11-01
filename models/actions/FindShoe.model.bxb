@@ -1,0 +1,24 @@
+action (FindShoe) {
+  type (Search)
+  collect {
+    input (name) {
+      type (Name)
+      min (Optional)
+    }
+    input (type) {
+      type (Type)
+      min (Optional)
+    }
+    input (minPrice) {
+      type (money.MinPrice)
+      min (Optional)
+      max (One)
+    }
+    input (maxPrice) {
+      type (money.MaxPrice)
+      min (Optional)
+      max (One)
+    }
+  }
+  output (Shoe)
+}
