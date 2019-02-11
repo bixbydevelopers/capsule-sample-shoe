@@ -1,7 +1,19 @@
-# Basic Search Capsule
+<p align="Center">
+  <img src="https://bixbydevelopers.com/dev/docs-assets/resources/dev-guide/bixby_logo_github-11221940070278028369.png">
+  <br/>
+  <h1 align="Center">Bixby Simple Search Sample Capsule</h1>
+</p>
 
-Basic models to exercise a search flow for finding shoes. Very little work done here on presentation 
-(some simple dialogs and a layout). Check the stories for example use cases. Note that this example also 
+## Overview
+
+This capsule is the the companion code to the Bixby [Simple Search Capsule](https://bixbydevelopers.com/dev/docs/sample-capsules/walkthroughs/simple-search) guide. This sample capsule shows how to include basic search in a capsule. The user can start with a simple utterance, such as "Find me some shoes," or do a more specific search, such as "Find me dancing shoes."
+
+---
+
+
+## Development Notes
+
+The UI is very basic (some simple dialogs and a layout). This example also 
 demonstrates usage of Fetch action as a lazy source for the accessories property of a Shoe. 
 
 
@@ -16,20 +28,24 @@ happen until the `shoe-details-fragment.layout.bml` is rendered.
 
 For more details, check https://bixbydevelopers.com/dev/docs/reference/type/structure.property.lazy-source
 
-## Changelog
+---
 
-### 2.1.2
-- VIV-23529 AthleticShoe story fix
+## Additional Resources
 
-### 2.1.1
-- .6t files to .bxb
+### Your Souce for Everything Bixby
+* [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
 
-### 2.1.0
-- Layout updates
-- Added training for price range
+### Guides & Best Practices
+* [Quick Start Guide](https://bixbydevelopers.com/dev/docs/get-started/quick-start) - Build your first capsule
+* [Design Guides](https://bixbydevelopers.com/dev/docs/dev-guide/design-guides) - Best practices for designing your capsules
+* [Developer Guides](https://bixbydevelopers.com/dev/docs/dev-guide/developers) - Guides that take you from design and modeling all the way through deployment of your capsules
 
-Changes on 1/31/2018
-- capsule.6t: Added version for imports
+### Video Guides
+* [Introduction to Bixby](https://youtu.be/DFvpK4PosvI) - Bixby and the New Exponential Frontier of Intelligent Assistants
+* [Bixby Fundamentals](https://bixby.developer.samsung.com/newsroom/en-us/22/01/2019/Teaching-Bixby-Fundamentals-What-You-Need-to-Know) - Bixby Fundamentals: What You Need to Know
 
-Changes on 2/13/2018
-- Updated to use latest bixby-2 versions
+### Need Support?
+* Have a feature request? Please suggest it in our [Support Community](https://support.bixbydevelopers.com/hc/en-us/community/topics/360000183273-Feature-Requests) to help us prioritize.
+* Have a technical question? Ask on [Stack Overflow](https://stackoverflow.com/questions/tagged/bixby) with tag “bixby”
+
+
