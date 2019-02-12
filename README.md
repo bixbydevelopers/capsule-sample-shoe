@@ -32,7 +32,7 @@ For more details, check https://bixbydevelopers.com/dev/docs/reference/type/stru
 
 ## Additional Resources
 
-### Your Souce for Everything Bixby
+### Your Source for Everything Bixby
 * [Bixby Developer Center](http://bixbydevelopers.com) - Everything you need to get started with Bixby Development!
 
 ### Guides & Best Practices
