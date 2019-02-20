@@ -9,7 +9,7 @@ layout-macro-def (shoe-details-header) {
     section {
       content {
         title-area {
-          hAlign (Start)
+          halign (Start)
           slot1 {
             text {
               style (Title_L)

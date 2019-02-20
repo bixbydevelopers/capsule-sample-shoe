@@ -8,9 +8,9 @@ layout-macro-def (shoe-image-card) {
   content {
     image-card {
       size (L)
-      image-url ("#{value(shoe.images[0].url)}")
+      image-url ("[#{value(shoe.images[0].url)}]")
       title-area {
-        hAlign (Start)
+        halign (Start)
         slot1 {
           text {
             value ("#{value(shoe.name)}")
