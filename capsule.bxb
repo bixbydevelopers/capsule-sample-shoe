@@ -5,16 +5,21 @@ capsule {
   targets {
     target (bixby-mobile-en-US)
   }
+  runtime-flags {
+    support-halt-effect-in-computed-inputs
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+  }
   capsule-imports {
     import (viv.core) { as (core) }
     import (viv.common) { 
-      as (common) version (3.28.9)
+      as (common) version (3.32.3)
     }
     import (viv.money) { 
-      as (money) version (2.18.9)
+      as (money) version (2.20.9)
     }
     import (viv.entity) { 
-      as (entity) version (3.14.9)
+      as (entity) version (3.18.11)
     }
   }
 }
