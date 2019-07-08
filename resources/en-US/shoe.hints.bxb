@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance ("[g:Shoe] Find a shoe for me!")
+    utterance ("[g:Shoe] find (athletic)[v:Type:Athletic] shoes")
+    utterance ("[g:Shoe] find a shoe between {[g:money.MinPrice] ($)[v:money.PrefixSymbol:$](60)[v:money.CurrencyValue]} and {[g:money.MaxPrice] ($)[v:money.PrefixSymbol:$](65)[v:money.CurrencyValue]}")
+  }
+}
