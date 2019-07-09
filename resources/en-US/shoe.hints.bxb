@@ -1,0 +1,7 @@
+hints {
+  uncategorized {
+    utterance (Find a shoe for me!)
+    utterance (Find athletic shoes)
+    utterance (Find a shoe between $60 and $65)
+  }
+}
