@@ -1,7 +1,7 @@
 hints {
   uncategorized {
-    utterance (Find a shoe for me!)
-    utterance (Find athletic shoes)
-    utterance (Find a shoe between $60 and $65)
+    hint (Ask Shoe Sample Capsule to find a shoe for me!)
+    hint (In Shoe Sample Capsule, find athletic shoes)
+    hint (With Shoe Sample Capsule, find a shoe between $60 and $65)
   }
 }
