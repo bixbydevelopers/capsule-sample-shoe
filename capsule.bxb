@@ -11,17 +11,18 @@ capsule {
     concepts-inherit-super-type-features
     no-filtering-with-validation
     modern-default-view-behavior
+    use-input-views-for-selection-list-detail
   }
   capsule-imports {
     import (viv.core) { as (core) }
     import (viv.common) { 
-      as (common) version (3.32.8)
+      as (common) version (3.32.15)
     }
     import (viv.money) { 
-      as (money) version (2.20.19)
+      as (money) version (2.22.0)
     }
     import (viv.entity) { 
-      as (entity) version (3.18.29)
+      as (entity) version (3.19.8)
     }
   }
 }
