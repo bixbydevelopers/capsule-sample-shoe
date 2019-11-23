@@ -16,13 +16,19 @@ capsule {
   capsule-imports {
     import (viv.core) { as (core) }
     import (viv.money) { 
-      as (money) version (2.22.3)
+      as (money) version (2.22.21)
     }
     import (viv.entity) { 
-      as (entity) version (3.20.5)
+      as (entity) version (4.0.3)
     }
     import (viv.common) { 
       as (common) version-from (money)
     }
+  }
+  store-countries {
+    all
+  }
+  store-sections {
+    section (Shopping)
   }
 }
