@@ -26,6 +26,9 @@ layout-macro-def (shoe-image-card) {
           }
         }
       }
+      on-click {
+        view-for (shoe)
+      }
     }
   }
 }
