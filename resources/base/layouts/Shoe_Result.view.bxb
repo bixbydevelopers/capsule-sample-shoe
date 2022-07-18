@@ -7,7 +7,7 @@ result-view {
     if ("size(shoe) > 1") {
       list-of (shoe) {
         where-each (item) {
-          layout-macro (shoe-image-card) {
+          macro (shoe-image-card) {
             param (shoe) {
               expression (item)
             }
@@ -16,17 +16,17 @@ result-view {
       }
     } else-if ("size(shoe) == 1") {
       layout {
-        layout-macro (shoe-image-carousel) {
+        macro (shoe-image-carousel) {
           param (shoe) {
             expression (shoe)
           }
         }
-        layout-macro (shoe-details-header) {
+        macro (shoe-details-header) {
           param (shoe) {
             expression (shoe)
           }
         }
-        layout-macro (shoe-accessories) {
+        macro (shoe-accessories) {
           param (shoe) {
             expression (shoe)
           }
