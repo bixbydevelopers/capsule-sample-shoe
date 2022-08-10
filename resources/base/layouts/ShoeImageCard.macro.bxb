@@ -1,4 +1,4 @@
-layout-macro-def (shoe-image-card) {
+macro-def (shoe-image-card) {
   params {
     param (shoe) {
       type (Shoe)

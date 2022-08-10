@@ -1,4 +1,4 @@
-layout-macro-def (shoe-image-carousel) {
+macro-def (shoe-image-carousel) {
   params {
     param (shoe) {
       type (Shoe)
