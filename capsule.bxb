@@ -1,6 +1,6 @@
 capsule {
   id (example.shoe)
-  version (2.1.2)
+  version (2.2.0)   //JSRS migration VCAP-24277
   format (3)
   targets {
     target (bixby-mobile-en-US)
