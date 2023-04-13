@@ -1,19 +1,23 @@
 capsule {
   id (example.shoe)
-  version (2.1.2)
-  format(3)
+  version (2.2.0)   //JSRS migration VCAP-24277
+  format (3)
   targets {
     target (bixby-mobile-en-US)
   }
   runtime-version (7) {
+    js-runtime-version (2)
     overrides {
       no-fallback-dialog-in-views (false)
     }
   }
   capsule-imports {
-    import (viv.core) { as (core) }
-    import (viv.money) { 
-      as (money) version (2.22.43)
+    import (viv.core) {
+      as (core)
+    }
+    import (viv.money) {
+      as (money)
+      version (2.22.56)
     }
   }
   store-countries {
